@@ -1,1 +1,2 @@
-# 182.-Duplicate-Emails
+SELECT email FROM Person 
+GROUP BY EMAIL HAVING COUNT(EMAIL)>1;
